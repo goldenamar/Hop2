@@ -1,23 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import './App.css'
+// import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="background">
+        <div className="row">
+          <p>team</p>
+          <div className="square"></div>
+          <div className="menu">
+            <div className="menu-item">Products</div>
+            <div className="menu-item">Services</div>
+            <div className="menu-item">Contact</div>
+            <div className="menu-item">Log in</div>
+            <button className="access">Get Access</button>
+          </div>
+        </div>
+        <div className="main">
+          <div className="topic">Instant collaborations for remote teams</div>
+          <div className="tinyTopic">All in one for your remote team chats, collaboration and track projects</div>
+          <div className="row">
+            <input className="emailInput" placeholder="Email" type={'email'}></input>
+            <button className="accessButton">Get Early Access</button>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
