@@ -18,7 +18,6 @@ function Home() {
                 <span className="slider round"></span>
               </label>
             </div>
-            <Link to="/Services">Services</Link>
             <Link to="/Contact">Contact</Link>
             <Link to="/Login">Log In</Link>
             <button className="access">Get Access</button>
