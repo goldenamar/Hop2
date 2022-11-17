@@ -1,0 +1,19 @@
+.cardContainer {
+    width: 300px;
+    height: 500px;
+    border: 1px solid white;
+}
+.App {
+    width: 100vw;
+    min-height: 100vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cardImage {
+    width: 300px;
+    height: 300px;
+}
